@@ -22,8 +22,8 @@ The folder structure of this repo:
 │   └── pcd
 ├── README.md
 ├── receiver
-│   ├── zmp_comp-img_receiver.py
-│   └── zmp_str_receiver.py
+│   ├── zmq_comp-img_receiver.py
+│   └── zmq_str_receiver.py
 ├── requirements.txt
 └── sender
 
@@ -52,5 +52,5 @@ Directly run corresponding `.py` script, e.g.
 
 ```bash
 cd /parent_folder/test_zmq_receiver/receiver
-python zmp_comp-img_receiver.py
+python zmq_comp-img_receiver.py
 ```
